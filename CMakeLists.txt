@@ -34,6 +34,7 @@ add_message_files(
     EventScheduler.msg
     EventSchedulerArray.msg
     HandlerInfo.msg
+    LoopStatus.msg
 )
 
 ## Generate services in the 'srv' folder
