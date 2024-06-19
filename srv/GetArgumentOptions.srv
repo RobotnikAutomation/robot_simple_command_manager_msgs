@@ -1,0 +1,6 @@
+string tag
+string argument
+---
+bool success
+string description
+string[] options
