@@ -4,6 +4,7 @@ string category
 string[] args_names
 string[] args_descriptions
 string[] args_types
+bool[] args_optionals
 string[] output_names
 string[] output_descriptions
 string[] output_types
