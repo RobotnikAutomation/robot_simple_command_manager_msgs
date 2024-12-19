@@ -1,0 +1,4 @@
+string old_name
+string new_name
+---
+robot_simple_command_manager_msgs/ReturnMessage ret
