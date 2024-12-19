@@ -50,6 +50,7 @@ add_service_files(
     GetCommandSchedulerList.srv
     AddSchedule.srv
     GetHandlerInfoList.srv
+    UpdateSequenceName.srv
 )
 
 ## Generate actions in the 'action' folder
