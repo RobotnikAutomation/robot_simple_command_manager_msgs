@@ -1,0 +1,4 @@
+---
+Timezone[] timezones
+bool success
+string message
