@@ -35,6 +35,7 @@ add_message_files(
     EventSchedulerArray.msg
     HandlerInfo.msg
     LoopStatus.msg
+    Timezone.msg
 )
 
 ## Generate services in the 'srv' folder
@@ -50,6 +51,7 @@ add_service_files(
     GetCommandSchedulerList.srv
     AddSchedule.srv
     GetHandlerInfoList.srv
+    Timezones.srv
 )
 
 ## Generate actions in the 'action' folder
