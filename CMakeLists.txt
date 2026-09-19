@@ -42,6 +42,7 @@ add_message_files(
 add_service_files(
     DIRECTORY srv
     FILES
+    JumpToCommand.srv
     GetArgumentOptions.srv
     SetCommandString.srv
     GetHandlers.srv
