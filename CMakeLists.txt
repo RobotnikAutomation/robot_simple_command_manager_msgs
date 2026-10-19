@@ -10,6 +10,7 @@ project(robot_simple_command_manager_msgs)
 find_package(catkin REQUIRED 
     message_generation
     actionlib_msgs
+    std_msgs
 )
 
 
@@ -24,6 +25,10 @@ add_message_files(
     CommandString.msg
     CommandStringFeedback.msg
     CommandStringResult.msg
+    CommandExecutionRecord.msg
+    SequenceExecutionReport.msg
+    SequenceCommand.msg
+    SequenceDefinition.msg
     ReturnMessage.msg
     StatusCodes.msg
     SequencerStatus.msg
@@ -49,6 +54,8 @@ add_service_files(
     GetHandlerInfo.srv
     ManageCommandManager.srv
     GetCommandManagerList.srv
+    AddSequenceV2.srv
+    GetSequencesV2.srv
     GetCommandSchedulerList.srv
     AddSchedule.srv
     GetHandlerInfoList.srv
@@ -65,9 +72,10 @@ add_action_files(
 generate_messages(
     DEPENDENCIES
     actionlib_msgs
+    std_msgs
 )
 
 catkin_package(
-   CATKIN_DEPENDS message_runtime actionlib_msgs
+   CATKIN_DEPENDS message_runtime actionlib_msgs std_msgs
 )
 

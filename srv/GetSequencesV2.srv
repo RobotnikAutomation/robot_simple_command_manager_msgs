@@ -1,0 +1,4 @@
+---
+robot_simple_command_manager_msgs/SequenceDefinition[] sequences
+bool success
+string message
