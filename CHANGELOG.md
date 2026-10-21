@@ -1,6 +1,8 @@
 # CHANGELOG
 
 ## 1.2.0 (17-10-2026)
+- Adds `code_string` and signed `manual_skip_applied` to CommandExecutionRecord for manual pointer changes (ROS MD5 change)
+- Adds `code_string` and signed `manual_skip_applied` to CommandExecutionRecord for manual pointer changes (ROS MD5 change)
 - Adds SequenceCommand/SequenceDefinition messages and additive AddSequenceV2/GetSequencesV2 services; existing service schemas are unchanged
 - SequenceExecutionReport.records now carries the latest completed state per command_index for the current UID, sorted by index; no message-schema change is required
 - Changes SequenceExecutionReport.state and its lifecycle constants from uint8 codes to strings (ROS MD5 change)
