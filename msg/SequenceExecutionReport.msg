@@ -14,6 +14,7 @@ bool advanced_mode        # false if the whole sequence is legacy
 uint32 skipped_failures
 uint32 total_retries
 uint32 total_repeats
+LoopStatus loop
 CommandExecutionRecord[] records
 bool has_active_command
 int32 active_command_index

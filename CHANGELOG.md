@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## 1.3.0 (21-10-2026)
+- Adds `LoopStatus` to `SequenceExecutionReport`; ROS message MD5 changes
+
 ## 1.2.0 (17-10-2026)
 - Adds `code_string` and signed `manual_skip_applied` to CommandExecutionRecord for manual pointer changes (ROS MD5 change)
 - Adds `code_string` and signed `manual_skip_applied` to CommandExecutionRecord for manual pointer changes (ROS MD5 change)
